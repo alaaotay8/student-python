@@ -1,0 +1,8 @@
+21000515 |otay         |Alaa       |16/03/2002 |monastir                     |alaaotay8@gmail.com     |11111111 |math    |1  
+51001122 |selmi        |Ali        |15/02/2001 |sfax                         |aliselmi@gmail.com      |93855542 |info    |1  
+51001133 |Samet        |sirine     |14/05/2002 |gabes                        |sirinsamet@gmail.com    |53855542 |math    |2  
+51001144 |hacheni      |Mohamed    |19/07/2000 |mednine                      |hachenimed@gmail.com    |25489156 |electronique|1  
+54001199 |hmida        |Mohamed    |02/09/2003 |sousse                       |mohamedhmida@gmail.com  |56978574 |info    |1  
+54001188 |Ksibi        |Ahmed      |15/08/2000 |sfax                         |ksibiahmed@gmail.com    |96855224 |math    |1  
+21055778 |hamemi       |Amin       |18/02/2000 |monastir                     |aminham@gmail.com       |98656747 |math    |2  
+21569874 |otay         |Ali        |16/03/2002 |monastir                     |alaa@gmail.com          |54056747 |math    |3  

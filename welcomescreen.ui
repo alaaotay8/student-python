@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>885</width>
+    <height>586</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>901</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(94, 163, 179, 255), stop:1 rgba(255, 255, 255, 255))}</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>70</y>
+       <width>331</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 36pt &quot;HelvLight&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;BIENVENUE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>140</y>
+       <width>381</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>weclum.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>490</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="acceptDrops">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>131894471_105894571412699_8788507472117403667_n-removebg-preview.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>460</y>
+       <width>251</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#000024;&quot;&gt;isimm@isimm.u-monastir.tn&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>440</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Papyrus</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(57, 57, 57);</string>
+     </property>
+     <property name="text">
+      <string>By Alaa Otay</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>885</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuGestion_des_tudiants">
+    <property name="title">
+     <string>Gestion des étudiants</string>
+    </property>
+    <widget class="QMenu" name="menuMise_jour_des_etudiants">
+     <property name="title">
+      <string>Mise à jour des étudiants</string>
+     </property>
+     <addaction name="action"/>
+     <addaction name="actionSupprimer_un_tudiant"/>
+     <addaction name="actionModifier_les_infos_d_un_tudiant"/>
+    </widget>
+    <addaction name="menuMise_jour_des_etudiants"/>
+    <addaction name="actionRecherche_et_affichage_2"/>
+   </widget>
+   <widget class="QMenu" name="menuGestion_des_matieres">
+    <property name="title">
+     <string>Gestion des matières</string>
+    </property>
+    <widget class="QMenu" name="menuMise_jour">
+     <property name="title">
+      <string>Mise à jour</string>
+     </property>
+     <addaction name="actionAjouter_une_mati_re"/>
+     <addaction name="actionModifier_une_mati_re"/>
+     <addaction name="actionSupprimer_une_mati_re"/>
+    </widget>
+    <addaction name="menuMise_jour"/>
+    <addaction name="actionRecherche_et_affichage_3"/>
+   </widget>
+   <widget class="QMenu" name="menuGestion_des_notes">
+    <property name="title">
+     <string>Gestion des notes</string>
+    </property>
+    <widget class="QMenu" name="menuMise_jour_2">
+     <property name="title">
+      <string>Mise à jour</string>
+     </property>
+     <addaction name="actionAjouter_une_note_2"/>
+     <addaction name="actionSupprimer_une_note"/>
+     <addaction name="actionModifier"/>
+    </widget>
+    <addaction name="menuMise_jour_2"/>
+    <addaction name="actionRecherche_et_affichage_4"/>
+   </widget>
+   <widget class="QMenu" name="menuCalcul_et_affichage">
+    <property name="title">
+     <string>Calcul et affichage</string>
+    </property>
+    <addaction name="actionBulletin_de_note_d_un_tudiant"/>
+   </widget>
+   <addaction name="menuGestion_des_tudiants"/>
+   <addaction name="menuGestion_des_matieres"/>
+   <addaction name="menuGestion_des_notes"/>
+   <addaction name="menuCalcul_et_affichage"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Ajouter un nouvel étudiant</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_un_tudiant">
+   <property name="text">
+    <string>Supprimer un étudiant</string>
+   </property>
+  </action>
+  <action name="actionModifier_les_infos_d_un_tudiant">
+   <property name="text">
+    <string>Modifier les infos. d'un étudiant</string>
+   </property>
+  </action>
+  <action name="actionModifier_une_mati_re">
+   <property name="text">
+    <string>Modifier une matière</string>
+   </property>
+  </action>
+  <action name="actionAjouter_une_mati_re">
+   <property name="text">
+    <string>Ajouter une matière</string>
+   </property>
+  </action>
+  <action name="actionAjouter_une_note">
+   <property name="text">
+    <string>Ajouter une note</string>
+   </property>
+  </action>
+  <action name="actionModifier_une_note">
+   <property name="text">
+    <string>Modifier une note</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_une_mati_re">
+   <property name="text">
+    <string>Supprimer une matière</string>
+   </property>
+  </action>
+  <action name="actionAjouter_une_note_2">
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_une_note">
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionModifier">
+   <property name="text">
+    <string>Modifier</string>
+   </property>
+  </action>
+  <action name="actionAfficher_tous_les_tudiants">
+   <property name="text">
+    <string>Afficher tous les étudiants</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_num_ro_d_inscription">
+   <property name="text">
+    <string>Recherche par numéro d'inscription</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section">
+   <property name="text">
+    <string>Recherche par section</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_niveau">
+   <property name="text">
+    <string>Recherche par niveau</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section_et_nivea">
+   <property name="text">
+    <string>Recherche par section et niveau</string>
+   </property>
+  </action>
+  <action name="actionAfficher_les_mati_res">
+   <property name="text">
+    <string>Afficher les matières</string>
+   </property>
+  </action>
+  <action name="actionAfficher_les_mati_res_2">
+   <property name="text">
+    <string>Afficher les matières</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_code">
+   <property name="text">
+    <string>Recherche par code</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section_2">
+   <property name="text">
+    <string>Recherche par section</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section_et_semestre">
+   <property name="text">
+    <string>Recherche par section et semestre</string>
+   </property>
+  </action>
+  <action name="actionAfficher_les_notes">
+   <property name="text">
+    <string>Affichage des notes</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_num_ro_d_inscription_2">
+   <property name="text">
+    <string>Recherche par numéro d'inscription</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section_et_niveau">
+   <property name="text">
+    <string>Recherche par section et niveau</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_num_d_inscri_et_semestre">
+   <property name="text">
+    <string>Recherche par num. d'inscri. et semestre</string>
+   </property>
+  </action>
+  <action name="actionBulletin_de_note_d_un_tudiant">
+   <property name="text">
+    <string>Bulletin de note d'un étudiant</string>
+   </property>
+  </action>
+  <action name="actionBulletin_de_note_d_un_tudiant_par_semestre">
+   <property name="text">
+    <string>Bulletin de note d'un étudiant par semestre</string>
+   </property>
+  </action>
+  <action name="actionEtudiants_admis_d_une_section_donn_e">
+   <property name="text">
+    <string>Etudiants admis d'une section donnée</string>
+   </property>
+  </action>
+  <action name="actionEtudiant_redoublants_d_une_section_donn_r">
+   <property name="text">
+    <string>Etudiants redoublants d'une section donnée</string>
+   </property>
+  </action>
+  <action name="actionEtudiants_admis_de_l_ISIMM">
+   <property name="text">
+    <string>Etudiants admis de l'ISIMM</string>
+   </property>
+  </action>
+  <action name="actionEtudiants_redoublants_de_l_ISIMM">
+   <property name="text">
+    <string>Etudiants redoublants de l'ISIMM</string>
+   </property>
+  </action>
+  <action name="actionMoyennes_des_tudiants_d_une_section_donn_e">
+   <property name="text">
+    <string>Moyennes des étudiants d'une section donnée</string>
+   </property>
+  </action>
+  <action name="actionRecherche_et_affichage_2">
+   <property name="text">
+    <string>Recherche et affichage</string>
+   </property>
+  </action>
+  <action name="actionRecherche_et_affichage_3">
+   <property name="text">
+    <string>Recherche et affichage</string>
+   </property>
+  </action>
+  <action name="actionRecherche_et_affichage_4">
+   <property name="text">
+    <string>Recherche et affichage</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="pictures.qrc"/>
+ </resources>
+ <connections/>
+</ui>
